@@ -5,6 +5,7 @@ RUN test -n "$stream" && test -n "$release"
 
 COPY install-fcos-kernel-devel.sh /usr/local/bin/install-fcos-kernel-devel.sh
 RUN dnf install -y curl \
+                   conntrack-tools \
                    bcc-tools \
                    bind-utils \
                    bpftrace \
