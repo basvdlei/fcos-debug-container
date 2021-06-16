@@ -1,4 +1,4 @@
-FROM docker://registry.fedoraproject.org/fedora:34
+FROM registry.fedoraproject.org/fedora:34
 ARG stream=stable
 ARG release
 RUN test -n "$stream" && test -n "$release"
