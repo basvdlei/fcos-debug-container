@@ -32,6 +32,7 @@ RUN dnf install -y curl \
                    procps-ng \
                    psmisc \
                    python \
+                   siege \
                    socat \
                    strace \
                    sysstat \
