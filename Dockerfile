@@ -8,9 +8,12 @@ RUN dnf install -y curl \
                    conntrack-tools \
                    bcc-tools \
                    bind-utils \
+                   bison \
                    bpftrace \
                    bpftool \
+                   elfutils-libelf-devel \
                    fio \
+                   flex \
                    gawk \
                    gdb \
                    git \
@@ -29,6 +32,7 @@ RUN dnf install -y curl \
                    mtr \
                    netcat \
                    nmap \
+                   openssl-devel \
                    openssh-clients \
                    procps-ng \
                    psmisc \
