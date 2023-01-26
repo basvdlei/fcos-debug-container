@@ -10,6 +10,7 @@ RUN dnf install -y curl \
                    bind-utils \
                    bpftrace \
                    bpftool \
+                   fio \
                    gawk \
                    gdb \
                    git \
