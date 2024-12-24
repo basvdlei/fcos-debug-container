@@ -1,4 +1,4 @@
-FROM registry.fedoraproject.org/fedora:37
+FROM registry.fedoraproject.org/fedora:41
 ARG stream=stable
 ARG release
 RUN test -n "$stream" && test -n "$release"
